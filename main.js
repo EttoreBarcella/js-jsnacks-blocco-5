@@ -51,3 +51,10 @@ const zucchine = [
 }
 
 ]
+
+let sum = 0
+for (let i = 0; i < zucchine.length; i++){
+    sum += zucchine[i].weight
+}
+
+console.log(sum)
